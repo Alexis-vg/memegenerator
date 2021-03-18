@@ -1,0 +1,65 @@
+.main-formulary {
+  display: flex;
+  width: 70%;
+  justify-content: space-evenly;
+  margin: 25px auto;
+}
+.main-formulary input {
+  width: 300px;
+  font-size: 2rem;
+  font-family: monospace;
+}
+.main-meme-maker {
+  position: relative;
+  margin-bottom: 50px;
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+}
+.img-container .img-container__meme-img {
+  width: 50%;
+  height: 55vh;
+}
+.top-text,
+.bottom-text {
+  text-align: center;
+  overflow: hidden;
+  max-width: 50%;
+  font-family: impact, sans-serif;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+.top-text {
+  position: absolute;
+  top: 0;
+}
+.bottom-text {
+  bottom: 0;
+  position: absolute;
+  transform: translateY(20%);
+}
+.main-formulary .main-formulary__btn {
+  display: inline-block;
+  height: 50px;
+  background-color: #26bd65;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  height: 40px;
+  font-weight: 400;
+  font-family: monospace;
+  font-size: 2rem;
+  outline: none;
+  width: 100px;
+}
+.main-formulary .main-formulary__btn:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12),
+    0 4px 4px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.12),
+    0 16px 16px rgba(0, 0, 0, 0.12);
+}
